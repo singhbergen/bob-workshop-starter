@@ -7,7 +7,7 @@ function Profile() {
       alignItems="center"
       textAlign="center"
       py={5}
-      bgcolor="#000000"
+      bgcolor="#"
       borderRadius={3}
       boxShadow={3}
       spacing={2}
@@ -23,6 +23,9 @@ function Profile() {
         }}
       />
       <Typography variant="h3" gutterBottom color="#FFC0CB">
+        Simerjit Singh Dhammi
+      </Typography>
+      <Typography variant="h7" gutterBottom color="#FFC0CB">
         Digitalt visittkort
       </Typography>
       <Typography variant="h5" gutterBottom color="#FFC0CB">

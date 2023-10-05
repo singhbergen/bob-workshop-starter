@@ -40,6 +40,7 @@ function Profile() {
         <br></br>
         <a href="https://www.linkedin.com/in/singhdhammi/">Besøk meg på LinkedIn</a>
       </Typography>
+    
       <Avatar
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png?20140125013055"
         alt="Linkedin"
@@ -51,7 +52,20 @@ function Profile() {
           border: "4px solid #000000",
         }}
       />
+      <ImageList sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}>
+  {itemData.map((item) => (
+    <ImageListItem key={item.img}>
+      <img
+        srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+        src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+        alt={item.title}
+        loading="lazy"
+      />
+    </ImageListItem>
+  ))}
+</ImageList>
     </Stack>
+  
   );
 }
 

@@ -10,15 +10,6 @@ function Description() {
       <Typography>
         En hyggelig forretningsutvikler som kan altfor lite om IT . 
       </Typography>
-      <Typography component="legend">Controlled</Typography>
-<Rating
-  name="simple-controlled"
-  value={5}
-  onChange={(event, 5) => {
-    setValue(5);
-  }}
-  <Rating name="read-only" value={5} readOnly />
-/>
     </Box>
     
   );

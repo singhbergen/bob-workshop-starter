@@ -25,10 +25,10 @@ function Profile() {
       <Typography variant="h3" gutterBottom color="#FFC0CB">
         Simerjit Singh Dhammi
       </Typography>
-      <Typography variant="h7" gutterBottom color="#FFC0CB">
+      <Typography variant="h7" gutterBottom color="#FFFFFF">
         Digitalt visittkort
       </Typography>
-      <Typography variant="h5" gutterBottom color="#FFC0CB">
+      <Typography variant="h5" gutterBottom color="#FFFFFF">
         Telefon: +47 474 47 747
       </Typography>
       <Typography variant="h5" gutterBottom color="#FFFFFF">

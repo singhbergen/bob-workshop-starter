@@ -56,8 +56,8 @@ function Profile() {
   {itemData.map((item) => (
     <ImageListItem key={item.img}>
       <img
-        srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-        src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+        srcSet={"https://assets.adnuntius.com/rfPQFVRWck3_12obSWhMZIb6m52cMh-MKxkWeEMNJyg.jpg"}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+        src={"https://assets.adnuntius.com/rfPQFVRWck3_12obSWhMZIb6m52cMh-MKxkWeEMNJyg.jpg"}?w=164&h=164&fit=crop&auto=format`}
         alt={item.title}
         loading="lazy"
       />

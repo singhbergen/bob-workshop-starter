@@ -33,7 +33,22 @@ function Profile() {
       </Typography>
       <Typography variant="h5" gutterBottom color="#FFFFFF">
         E-post: simerjit@dhammi.no
+        <br></br>
+        <br></br>
+        <br></br>
+        <a href="https://www.linkedin.com/in/singhdhammi/">Besøk meg på LinkedIn</a>
       </Typography>
+      <Avatar
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png?20140125013055"
+        alt="Linkedin"
+    
+        sx={{
+          width: 50,
+          height: 50,
+          margin: "auto",
+          border: "4px solid #000000",
+        }}
+      />
     </Stack>
   );
 }

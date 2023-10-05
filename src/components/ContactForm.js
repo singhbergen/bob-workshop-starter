@@ -34,7 +34,7 @@ function ContactForm() {
         },
         body: JSON.stringify({
           ...formData,
-          access_key: "HER-MÅ-DU-LEGGE-INN-DIN-ACCESS-KEY", // Get your access key from https://web3forms.com/
+          access_key: "67bdc19f-c632-40c2-b6da-52503566eca2", // Get your access key from https://web3forms.com/
         }),
       });
 
@@ -42,12 +42,12 @@ function ContactForm() {
 
       if (data.success) {
         setSnackbarMessage(
-          "Din melding har blitt sendt! Takk for at du kontaktet oss."
+          "Takk for at du sendte meg en henvendelse."
         );
         setSnackbarType("success");
         setFormData({ email: "", message: "" });
       } else {
-        setSnackbarMessage("Noe gikk galt. Prøv igjen senere.");
+        setSnackbarMessage("Noe gikk typisk nok galt. Prøv igjen senere.");
         setSnackbarType("error");
       }
     } catch (error) {
@@ -61,7 +61,7 @@ function ContactForm() {
   return (
     <Box py={5} bgcolor="#ffffff" borderRadius={3} boxShadow={3} mt={4} px={3}>
       <Typography variant="h6" gutterBottom color="#000000">
-        Kontakt Simerjit Dhammi
+        Jeg svarer i løpet av 24 timer
       </Typography>
 
       <Stack component="form" onSubmit={handleSubmit} spacing={2}>

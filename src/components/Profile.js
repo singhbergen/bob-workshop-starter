@@ -7,23 +7,29 @@ function Profile() {
       alignItems="center"
       textAlign="center"
       py={5}
-      bgcolor="#f5f5f5"
+      bgcolor="#000000"
       borderRadius={3}
       boxShadow={3}
       spacing={2}
     >
       <Avatar
-        src="/bilde-av-blomst.jpeg"
-        alt="Blomst"
+        src="https://media.licdn.com/dms/image/C4D03AQGokpOd5hVDFg/profile-displayphoto-shrink_400_400/0/1642209375662?e=1701907200&v=beta&t=UBS_GAIvnf9SwlNsPi2tRHsKJNGaCEekIURTztIS9c4"
+        alt="Flower"
         sx={{
-          width: 150,
-          height: 150,
+          width: 500,
+          height: 500,
           margin: "auto",
-          border: "4px solid #3f51b5",
+          border: "4px solid #000000",
         }}
       />
-      <Typography variant="h4" gutterBottom color="#3f51b5">
-        Tilfeldig fin blomst
+      <Typography variant="h3" gutterBottom color="#FFC0CB">
+        Digitalt visittkort
+      </Typography>
+      <Typography variant="h5" gutterBottom color="#FFC0CB">
+        Telefon: +47 474 47 747
+      </Typography>
+      <Typography variant="h5" gutterBottom color="#FFC0CB">
+        E-post: simerjit@dhammi.no
       </Typography>
     </Stack>
   );

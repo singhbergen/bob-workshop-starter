@@ -7,7 +7,7 @@ function Profile() {
       alignItems="center"
       textAlign="center"
       py={5}
-      bgcolor="#"
+      bgcolor="#000000"
       borderRadius={3}
       boxShadow={3}
       spacing={2}
@@ -31,7 +31,7 @@ function Profile() {
       <Typography variant="h5" gutterBottom color="#FFC0CB">
         Telefon: +47 474 47 747
       </Typography>
-      <Typography variant="h5" gutterBottom color="#FFC0CB">
+      <Typography variant="h5" gutterBottom color="#FFFFFF">
         E-post: simerjit@dhammi.no
       </Typography>
     </Stack>
